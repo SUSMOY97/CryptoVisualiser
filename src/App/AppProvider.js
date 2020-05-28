@@ -22,8 +22,14 @@ export class AppProvider extends React.Component {
         return {};
         
     }
-    confirmFavourites(){
-        console.log('Hello');
+    confirmFavourites=()=>{
+        this.setState({
+            firstVisit: false,
+            page: 'dashboard'
+        })
+        localStorage.setItem('cryptoDash',JSON.stringify({
+            test: 'hello'
+        }))
     }
     setPage= page => this.setState({page})
 

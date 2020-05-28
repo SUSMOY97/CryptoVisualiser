@@ -7,7 +7,7 @@ const ConfirmButtonStyled = styled.div`
 
 margin:20px;
 color:green;
-
+cursor:pointer;
 
 `;
 
