@@ -20,7 +20,7 @@ export default function ({coinKey,topSection}){
 
     {({coinList,addCoin,removeCoin,isInFavorites }) =>{
         let coin = coinList[coinKey]
-        console.log(coin)
+        
 
     
 
