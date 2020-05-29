@@ -8,7 +8,7 @@ const ConfirmButtonStyled = styled.div`
 
 margin:20px;
 color: ${color3} ;
-font-size: ${fontSize1} ;
+${fontSize1} ;
 
 padding:5px;
 cursor:pointer;
