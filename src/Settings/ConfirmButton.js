@@ -1,13 +1,20 @@
 import React from 'react';
 
-import styled from "styled-components";
+import styled,{css} from "styled-components";
 import {AppContext} from "../App/AppProvider"
+import {fontSize1,greenBoxShadow,color3} from "../Shared/Styles"
 
 const ConfirmButtonStyled = styled.div`
 
 margin:20px;
-color:green;
+color: ${color3} ;
+font-size: ${fontSize1} ;
+
+padding:5px;
 cursor:pointer;
+&:hover {
+    ${greenBoxShadow}
+}
 
 `;
 
