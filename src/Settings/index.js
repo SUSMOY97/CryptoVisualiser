@@ -11,6 +11,7 @@ export default function(){
     <Page name="settings">
     
     <WelcomeMessage/>
+    <CoinGrid topSection/>
     <ConfirmButton/>
     <CoinGrid/>
 
