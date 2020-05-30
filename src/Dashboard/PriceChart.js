@@ -5,11 +5,18 @@ import HighchartsConfig from "./HighchartsConfig"
 
 import {Tile} from "../Shared/Tile"
 
+import HighChartsTheme from "./HighChartsTheme"
+
+
+
+
 
 import {AppContext} from "../App/AppProvider"
 
 import ReactHighcharts from 'react-highcharts'
 
+
+ReactHighcharts.Highcharts.setOptions(HighChartsTheme)
 export default function (){
     return (
         <AppContext.Consumer>
